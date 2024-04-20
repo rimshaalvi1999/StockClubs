@@ -1,0 +1,50 @@
+.madiv{
+  background-image: url('../../assets/purbg.png');
+ 
+  background-color: rgb(159 115 194);
+  justify-content: center;
+    overflow: hidden;
+    /* box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #eee; */
+    position: relative;
+   
+}
+
+.roundeddiv{
+ border-radius: 25px;
+}
+
+
+.image-container img {
+  position: absolute;
+}
+
+
+@media (max-width: 992px) {
+  .image-container img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .image-container img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .image-container img {
+    width: 50%;
+  }
+}
+
+
+.img4 {
+  transition: transform ease-in-out 0.5s;
+}
+.img4:hover {
+  transform: translateY(-10%) translateX(20%); 
+}
+
